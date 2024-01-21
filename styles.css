@@ -1,0 +1,33 @@
+.timer-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr auto auto auto;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.timer-display {
+  font-size: 2em;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+}
+
+.timer-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.timer-button:hover {
+  background-color: #0056b3;
+}
